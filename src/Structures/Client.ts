@@ -42,7 +42,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             printQRInTerminal: true,
             auth: state,
             logger: P({ level: 'fatal' }),
-            browser: ['Chisato-WhatsApp', 'fatal', '4.0.0'],
+            browser: ['Chisato-MD', 'fatal', '4.0.0'],
             getMessage: async (key) => {
                 return {
                     conversation: ''
